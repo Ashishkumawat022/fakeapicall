@@ -1,0 +1,44 @@
+.heading{
+    text-align: center;
+    padding: 40px 0px;
+
+    h1{
+        font-size: 40px;
+    }
+}
+
+
+.productList{
+    padding: 40px 0px ;
+    text-align: center;
+   
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+}
+
+.productDetail{
+    padding: 40px 20px ;
+
+    .title{
+        font-size: 22px;
+        font-weight: 500;
+
+    }
+    .category{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .description{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .price{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

@@ -46,7 +46,7 @@ const ProductDetail = () => {
                   <p className={`${cx.category}`}>{product.category}</p>
                   <p className={`${cx.description}`}>{product.description}</p>
                   <p className={`${cx.price}`}> Price : {product.price}</p>
-                  {/* <p className={`${cx.price}`}> Rating : {product.rating[rate]}</p> */}
+                  <p className={`${cx.price}`}> Rating : {product.rating?.rate} ⭐</p>
                 </div>
               </div>
             </Col>

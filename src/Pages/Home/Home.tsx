@@ -11,17 +11,17 @@ const Home = () => {
     const apiUrl = "https://fakestoreapi.com/products";
 
     fetch(apiUrl)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Network issue");
         }
-        return response.json();
+        return res.json();
       })
-      .then((responseData) => {
-        setData(responseData);
+      .then((result) => {
+        setData(result);
       })
       .catch((error) => {
-        console.error("There was a problem with the fetch operation:", error);
+        console.error("fetch operation problem:", error);
       });
   }, []);
 
